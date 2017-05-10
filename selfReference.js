@@ -3,8 +3,8 @@ function personMaker() {
         firstName: 'Paul',
         lastName: 'Jones',
         fullName: function(){
-          console.log(this.firstName + " " + this.lastName);
-      }
+            return this.firstName + ' ' + this.lastName;
+        }  
     };
     return person;
 }
